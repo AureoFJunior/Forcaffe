@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telamain"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="145dp"
+        android:layout_height="111dp"
+        android:translationX="100dp"
+        android:translationY="315dp"
+        app:srcCompat="@drawable/bread_pog" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="145dp"
+        android:layout_height="111dp"
+        android:translationX="100dp"
+        android:translationY="500dp"
+        app:srcCompat="@drawable/milkshake_pog" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/delius_swash_caps"
+        android:text="Forcaffe"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:translationY="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="111dp"
+        android:translationX="100dp"
+        android:translationY="150dp"
+        app:srcCompat="@drawable/cup_pog" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
